@@ -1,14 +1,14 @@
 <h1>New Article</h1>
-<%= form_tag articles_path, local: true do |form| %>
+<%= form_for :article, url: articles_path do |f| %>
     <p>
-        <%= label_tag :title %><br>
-        <%= text_field_tag :title %>
+        <%= f.label :title %><br>
+        <%= f.text_field :title %>
     </p>
 
     <p>
-        <%= label_tag :text %><br>
-        <%= text_field_tag :text %>
+        <%= f.label :text %><br>
+        <%= f.text_area :text %>
     </p>
     <p>
-        <%= submit_tag %>
+        <%= f.submit %>
     <% end %>
