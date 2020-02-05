@@ -646,3 +646,1187 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 14ms (Views: 5.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/welcome" for 127.0.0.1 at 2020-02-04 19:47:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (2.7ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.4ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+Started GET "/welcome/index" for 127.0.0.1 at 2020-02-04 19:47:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 302ms (Views: 301.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2020-02-04 19:49:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-04 19:56:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/article/new" for 127.0.0.1 at 2020-02-04 20:05:45 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/article/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.3ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.0ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.7ms)
+Started GET "/welcome/index" for 127.0.0.1 at 2020-02-04 20:06:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 130ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:06:47 -0300
+  
+ActionController::RoutingError (uninitialized constant ArticlesController):
+  
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+rack (2.1.2) lib/rack/session/abstract/id.rb:269:in `context'
+rack (2.1.2) lib/rack/session/abstract/id.rb:263:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.4ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:11:03 -0300
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for ArticlesController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+rack (2.1.2) lib/rack/session/abstract/id.rb:269:in `context'
+rack (2.1.2) lib/rack/session/abstract/id.rb:263:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:11:34 -0300
+Processing by ArticlesController#new as HTML
+Completed 406 Not Acceptable in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ArticlesController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.0.7.2) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+actionpack (5.0.7.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.0.7.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.0.7.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:188:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.0.7.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:126:in `call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.7.2) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.7.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.7.2) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.7.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.7.2) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.7.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+rack (2.1.2) lib/rack/session/abstract/id.rb:269:in `context'
+rack (2.1.2) lib/rack/session/abstract/id.rb:263:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:43:11 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 276ms (Views: 269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:46:10 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/henrylle/Projetos/estudo-ruby/blog/app/views/articles/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/articles/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.7ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:46:28 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (180.1ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x00558ffc584850>:0x007fa53002f580>
+Did you mean?  article_url):
+    1: <%= form_with scope: article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173725917060'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.6ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:46:33 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (162.0ms)
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x00558ffc584850>:0x007fa53e951d80>
+Did you mean?  article_url):
+    1: <%= form_with scope: article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173848146840'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:46:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (109.8ms)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `form_with' for #<#<Class:0x00558ffc584850>:0x007fa53e60df70>
+Did you mean?  form_tag):
+    1: <%= form_with scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173846434940'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:47:10 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (86.6ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `form_with' for #<#<Class:0x00558ffc584850>:0x007fa53e36e0a8>
+Did you mean?  form_tag):
+    1: <%= form_with scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173845059000'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:47:28 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (76.4ms)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `form_with' for #<#<Class:0x00558ffc584850>:0x007fa53e799790>
+Did you mean?  form_tag):
+    1: <%= form_with scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173847244940'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:49:27 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:scope=>:article, :local=>true}:Hash):
+    1: <%= form_for scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173725909200'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:49:33 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `label' for nil:NilClass):
+    1: <%= form_tag scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+    5:     </p>
+    6: 
+  
+app/views/articles/new.html.erb:3:in `block in _app_views_articles_new_html_erb__1545725035868205896_70173841888700'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173841888700'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:49:39 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for {:scope=>:article, :local=>true}:Hash):
+    1: <%= form_for scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+  
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173847837360'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.9ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:49:45 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `label' for nil:NilClass):
+    1: <%= form_tag scope: :article, local: true do |form| %>
+    2:     <p>
+    3:         <%= form.label :title %><br>
+    4:         <%= form.text_field :title %>
+    5:     </p>
+    6: 
+  
+app/views/articles/new.html.erb:3:in `block in _app_views_articles_new_html_erb__1545725035868205896_70173835703760'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173835703760'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:51:26 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `submit' for nil:NilClass):
+     9:         <%= text_field_tag :text %>
+    10:     </p>
+    11:     <p>
+    12:         <%= form.submit%>
+    13:     <% end %>
+    14: <h1>New Article</h1>
+  
+app/views/articles/new.html.erb:12:in `block in _app_views_articles_new_html_erb__1545725035868205896_70173845823600'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173845823600'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:51:32 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (150.3ms)
+Completed 500 Internal Server Error in 152ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `submit' for #<#<Class:0x00558ffc584850>:0x007fa5300f5708>
+Did you mean?  submit_tag):
+     9:         <%= text_field_tag :text %>
+    10:     </p>
+    11:     <p>
+    12:         <%= submit %>
+    13:     <% end %>
+    14: <h1>New Article</h1>
+  
+app/views/articles/new.html.erb:12:in `block in _app_views_articles_new_html_erb__1545725035868205896_70173726322780'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb__1545725035868205896_70173726322780'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.1ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 20:51:41 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles/new?local=true&scope=article" for 127.0.0.1 at 2020-02-04 20:51:59 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (3.4ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.2ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+Started POST "/articles/new?local=true&scope=article" for 127.0.0.1 at 2020-02-04 20:54:18 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.4ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.0ms)
+Started POST "/articles/new?local=true&scope=article" for 127.0.0.1 at 2020-02-04 21:05:43 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.7ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:05:49 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles/new?local=true&scope=article&url=%2Farticles" for 127.0.0.1 at 2020-02-04 21:05:50 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.0ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:05:59 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:06:00 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:06:09 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles/new?local=true&scope=article&url=%2Farticles" for 127.0.0.1 at 2020-02-04 21:06:09 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.1ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:06:31 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 149ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles/new?local=true&scope=article&url=%2Farticles" for 127.0.0.1 at 2020-02-04 21:06:33 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.7ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:07:10 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:07:19 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:08:46 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:09:04 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:09:16 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:10:05 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles/new?local=true&scope=article&url=%2Farticles" for 127.0.0.1 at 2020-02-04 21:10:19 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.6ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.4ms)
+Started POST "/articles/new?local=true&scope=article&url=%2Farticles" for 127.0.0.1 at 2020-02-04 21:10:59 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.5ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.8ms)
+Started GET "/articles" for 127.0.0.1 at 2020-02-04 21:12:29 -0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+rack (2.1.2) lib/rack/session/abstract/id.rb:269:in `context'
+rack (2.1.2) lib/rack/session/abstract/id.rb:263:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:12:33 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:14:48 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:15:04 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YpEAD8hxF1M4dmirdG2bP8gpFjPmc8wyLxGq7S0rxkCOID2luv2PArMDXmYlQBbc8TDDGIe17xnILTs9ZJj40Q==", "title"=>"tsarfdsa", "text"=>"", "commit"=>"Save changes"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:15:11 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:15:12 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EfxnO8pKaJnuKRmbatkj4y43SAZRtI84LJaYYvglSX/9TVqRuMbwyGVcL1Y79K4AFy6dLTByrBPLqgmysZZ37g==", "title"=>"tsarfdsa", "text"=>"fsda", "commit"=>"Save changes"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:15:26 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:15:28 -0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for ArticlesController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.1.2) lib/rack/etag.rb:27:in `call'
+rack (2.1.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.2) lib/rack/head.rb:14:in `call'
+rack (2.1.2) lib/rack/session/abstract/id.rb:269:in `context'
+rack (2.1.2) lib/rack/session/abstract/id.rb:263:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/henrylle/.rvm/gems/ruby-2.4.1@eva/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:17:52 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BVkeMzDkjGDMyC3Cqjn3scLqMcCSR+5T2zBTMStZIfTp6COZQmgUMUe9Gw/7FHpS+/Pk6/OBzXg8DMLhYuofZQ==", "title"=>"tsarfdsa", "text"=>"fsda", "commit"=>"Save changes"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:17:56 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BVkeMzDkjGDMyC3Cqjn3scLqMcCSR+5T2zBTMStZIfTp6COZQmgUMUe9Gw/7FHpS+/Pk6/OBzXg8DMLhYuofZQ==", "title"=>"tsarfdsa", "text"=>"fsda", "commit"=>"Save changes"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-02-04 21:19:51 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 317ms (Views: 310.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-02-04 21:19:53 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j/P1BZfbl0JzJssaDxc3VtQ8pHbPZrgMgSgWm+fgNsFjQsiv5VcPE/hT/ddeOrq17SVxXa6gmydmFIdLrlMIUA==", "title"=>"tsarfdsa", "text"=>"fsda", "commit"=>"Save changes"}
