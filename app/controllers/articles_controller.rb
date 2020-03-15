@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
-    def index
-      @articles = Article.all
+    def index      
+      @articles = Article.includes(:comments).all      
     end
     def show
       @article = Article.find(params[:id])
