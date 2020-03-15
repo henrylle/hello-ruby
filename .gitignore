@@ -1,6 +1,4 @@
  #Ignore all logfiles and tempfiles.
 *.log
-*.sqlite3
 /tmp/*
 *.sqlite3
-*.log
